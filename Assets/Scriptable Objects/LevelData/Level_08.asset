@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ccad498450ec644e867cc9eddfcf696, type: 3}
+  m_Name: Level_08
+  m_EditorClassIdentifier: 
+  levelLayout: {fileID: 2916354316256516116, guid: 4a674705485d3114b80511a0d818aa30, type: 3}
+  firstBallType: {fileID: 11400000, guid: a546aa523d9c1214eb143eeb4b412acb, type: 2}
+  secondBallType: {fileID: 11400000, guid: 37205daa8d3dbba4599d350bfa9d9c78, type: 2}
+  maxFirstBallType: 7
+  maxSecondBallType: 9
+  slotsCount: 16
+  middleSlotsAmount: 2
+  isRandom: 0
+  isSideDependant: 1
+  hasTimer: 1
+  hasBestTimer: 1
+  bestTime: 0
+  backgroundCameraColor: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7996987686376480651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7996987686376480652}
+  - component: {fileID: 7996987686376480653}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7996987686376480652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7996987686376480651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7996987686376480653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7996987686376480651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a627dcc4df9d4046b33441b2bf57cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTime:
+    Variable: {fileID: 11400000, guid: 9c8f14c2b3d92a6478d71803de50ea78, type: 2}
+    InitialVariable: {fileID: 11400000, guid: 616dbe61ddf974f4b8bdb2c44946af10, type: 2}
+    useConstant: 0
+    _value: 0
+    _constantValue: 0
+  bestTime:
+    Variable: {fileID: 11400000, guid: 23a505982fe02f140b6c2c91d17e5d52, type: 2}
+    InitialVariable: {fileID: 11400000, guid: d3cb7b59a767011449c1fa955996bf57, type: 2}
+    useConstant: 0
+    _value: 0
+    _constantValue: 0
+  levelData: {fileID: 11400000, guid: 334fa8a5440d05a4fb4a8e41b0038ee1, type: 2}
+  activateTimer: 0
+  countDown: 0
+  hasLimit: 0
+  timerLimit:
+    Variable: {fileID: 11400000, guid: 85c14ace1f66a074c95394772cc8a732, type: 2}
+    InitialVariable: {fileID: 0}
+    useConstant: 0
+    _value: 60
+    _constantValue: 0
